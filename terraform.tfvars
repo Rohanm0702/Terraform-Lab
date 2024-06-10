@@ -1,0 +1,14 @@
+storage              = 20
+db_name              = "LabRDS"
+engine               = "mysql"
+engine_version       = "8.0.35"
+instance_class       = "db.t3.micro"
+username             = "Rohan"
+password             = "password123"
+parameter_group_name = "default.mysql8.0"
+skip_final_snapshot  = true
+vpc_cidr             = "10.0.0.0/16"
+subnet_cidr-1        = "10.0.0.0/24"
+subnet_cidr-2        = "10.0.1.0/24"
+az1                  = "us-east-1a"
+az2                  = "us-east-1b"
