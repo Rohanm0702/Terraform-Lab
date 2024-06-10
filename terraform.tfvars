@@ -1,0 +1,6 @@
+iam_users       = ["user1", "user2", "user3", "user4", "guest"]
+developer_users = ["user1"]
+admin_users     = ["user2"]
+project_users   = ["user3"]
+intern_users    = ["user4"]
+guest_users     = ["guest"]
